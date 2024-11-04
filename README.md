@@ -5,11 +5,7 @@ Fall 2024 Capstone Project Jupyter Notebook
 
 ## Setup Instructions
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
+1. Clone the repository
 
 2. Create a virtual environment:
    ```bash
