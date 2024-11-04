@@ -16,7 +16,12 @@ Fall 2024 Capstone Project Jupyter Notebook
    python -m venv .venv
    ```
 
-3. Activate the virtual environment:
+3. Select the virtual environment for the VS Code Context:
+   * Click on the upper right-hand corner where it says "Select Python Interpreter"
+   * Select the virtual environment that you just created (it should be in the .venv directory)
+   ![Set VS Code Environment](assets/set-vs-code-env.png)
+
+4. Activate the virtual environment:
    - On Windows:
      ```bash
      .venv\Scripts\activate
@@ -26,13 +31,8 @@ Fall 2024 Capstone Project Jupyter Notebook
      source .venv/bin/activate
      ```
 
-4. Install the dependencies:
+5. Install the dependencies:
    ```bash
    pip install -r requirements.txt
-   ```
-
-5. Start Jupyter Notebook:
-   ```bash
-   jupyter notebook
    ```
 
